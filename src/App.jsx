@@ -26,8 +26,8 @@ useEffect(() => {
     <Router>
       <div>
         <nav>
-          <Link to="/">Inicio</Link>
-          <Link to="/create">create</Link>
+          <Link to="/">Home </Link>
+          <Link to="/create"> Create</Link>
         </nav>
         {data === null 
         ? (<div>cargando...</div>) 
